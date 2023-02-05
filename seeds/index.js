@@ -23,4 +23,6 @@ const seedAll = async () => {
   process.exit(0);
 };
 
+// WHEN I enter schema and seed commands
+// THEN a development database is created and is seeded with test data
 seedAll();
