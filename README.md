@@ -9,7 +9,7 @@ This project is a practice in maintaining a database and allowing a user to util
 ## Installation
 Clone this repository. Create a .env file and enter information for your database name, username, and password. Initialize the database by running mysql and running the command: SOURCE db/schema.sql. Quit and seed the database through npm run seed. Finally, run the application through npm start.
 ## Usage
-Using a program such as Insomnia, input JSON commands to get, post, put, and delete different values. For a video tutorial, see here: ![https://drive.google.com/file/d/13nigk76j-u0HFCf1bU1PtFYG0JxZr24V/view]
+Using a program such as Insomnia, input JSON commands to get, post, put, and delete different values. For a video tutorial, see here: ![watch the video](https://drive.google.com/file/d/13nigk76j-u0HFCf1bU1PtFYG0JxZr24V/view)
 ## Credits
 Starter code sourced from the UO fullstack development course.
 ## License
