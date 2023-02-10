@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
     const productData = await Product.findAll({
       include: [
         {model: Category},
-        {model: Tag, attributes: ['tag_name'], through: {model: ProductTag, attributes: ['product_id', 'tag_id']}}]
+        {model: Tag, through: {model: ProductTag}}]
     });
     
     res.status(200).json(productData);
@@ -23,7 +23,7 @@ router.get('/:id', async (req, res) => {
     const productData = await Product.findByPk(req.params.id, {
       include: [
         {model: Category},
-        {model: Tag, attributes: ['tag_name'], through: {model: ProductTag, attributes: ['product_id', 'tag_id']}}
+        {model: Tag, through: {model: ProductTag}}
       ]
     });
 
@@ -114,6 +114,7 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   try {
+    await ProductTag.destroy({where: {product_id: req.params.id}});
     const productData = await Product.destroy({
       where: {id: req.params.id}
     });
