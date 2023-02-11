@@ -13,6 +13,6 @@ Using a program such as Insomnia, input JSON commands to get, post, put, and del
 ## Credits
 Starter code: https://github.com/coding-boot-camp/fantastic-umbrella
 
-Contribution: https://github.com/DelgaMatt/E-commerce-Back-End/blob/main/routes/api/product-routes.js
+Contribution: https://github.com/DelgaMatt/E-commerce-Back-End/
 ## License
 Please see the license information inside the repository.
