@@ -11,7 +11,7 @@ Clone this repository. Create a .env file and enter information for your databas
 ## Usage
 Using a program such as Insomnia, input JSON commands to get, post, put, and delete different values. For a video tutorial, see here: https://drive.google.com/file/d/1Etc_Npukv0cltkB8jf6fhB7ezL6gNEhO/view
 ## Credits
-Starter code: https://github.com/coding-boot-camp/fantastic-umbrella
+Starter code: https://github.com/coding-boot-camp/fantastic-umbrella \n
 Contribution: https://github.com/DelgaMatt/E-commerce-Back-End/blob/main/routes/api/product-routes.js
 ## License
 Please see the license information inside the repository.
